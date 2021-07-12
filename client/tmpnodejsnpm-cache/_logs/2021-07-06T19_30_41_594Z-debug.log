@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--',
+1 verbose cli   'axio'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.3
+4 verbose npm-session a2bad0962fed63f0
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/axio 3340ms
+8 silly fetchPackageMetaData error for axio@latest No valid versions available for axio
+9 timing stage:rollbackFailedOptional Completed in 1ms
+10 timing stage:runTopLevelLifecycles Completed in 6557ms
+11 verbose type tag
+12 verbose stack axio: No valid versions available for axio
+12 verbose stack     at pickManifest (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-pick-manifest\index.js:39:11)
+12 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\fetchers\registry\manifest.js:24:14
+12 verbose stack     at tryCatcher (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+12 verbose stack     at Promise._settlePromiseFromHandler (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise.js:517:31)
+12 verbose stack     at Promise._settlePromise (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise.js:574:18)
+12 verbose stack     at Promise._settlePromise0 (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise.js:619:10)
+12 verbose stack     at Promise._settlePromises (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\promise.js:699:18)
+12 verbose stack     at _drainQueueStep (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:138:12)
+12 verbose stack     at _drainQueue (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:131:9)
+12 verbose stack     at Async._drainQueues (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:147:5)
+12 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (C:\Program Files\nodejs\node_modules\npm\node_modules\bluebird\js\release\async.js:17:14)
+12 verbose stack     at processImmediate (internal/timers.js:464:21)
+13 verbose cwd C:\Users\HP\Rabbit\client
+14 verbose Windows_NT 10.0.19043
+15 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--" "axio"
+16 verbose node v14.17.3
+17 verbose npm  v6.14.13
+18 error code ENOVERSIONS
+19 error No valid versions available for axio
+20 verbose exit [ 1, true ]
